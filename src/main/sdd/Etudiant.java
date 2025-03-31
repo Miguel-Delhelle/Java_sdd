@@ -19,8 +19,8 @@ public class Etudiant implements Comparable<Etudiant>{
 
 	@Override
 	public String toString() {
-		return "IamObject [id=" + id + ", name=" + name + ", nbrDattribut=" + nbrDattribut + ", jeSuisUnNombre="
-				+ moyenneG + "]";
+		return "IamObject [id=" + id + ", name=" + name + ", nbrDattribut=" + nbrDattribut + ", moyenneG="
+				+ moyenneG + "]\n";
 	}
 
 
