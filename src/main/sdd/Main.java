@@ -16,7 +16,11 @@ public class Main {
 			IamObject tmp = new IamObject(i,"Je suis l'objet"+i, 3.14);
 			uneTreeSet.add(tmp);
 		}
-				
+		
+		System.out.println(uneTreeSet);
+		
 	}
+	
+	
 
 }
