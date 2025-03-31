@@ -1,6 +1,6 @@
 package main.sdd;
 
-public class IamObject {
+public class IamObject implements Comparable<IamObject>{
 	
 	private int id;
 	private String name;
@@ -15,6 +15,21 @@ public class IamObject {
 		this.nbrDattribut = 4;
 		this.jeSuisUnNombre = d;
 	}
+
+
+	@Override
+	public String toString() {
+		return "IamObject [id=" + id + ", name=" + name + ", nbrDattribut=" + nbrDattribut + ", jeSuisUnNombre="
+				+ jeSuisUnNombre + "]";
+	}
+
+
+	public int compareTo (IamObject other) {
+        return Integer.compare(this.id, other.id); // Tri par id		return 0;
+	}
+
+
+
 	
 	
 
